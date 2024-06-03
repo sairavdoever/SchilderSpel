@@ -1,0 +1,97 @@
+.Canvas {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 64vh;
+}
+
+.Canvas img {
+    position:absolute;
+    width:400px;
+}
+
+.plaatjes {
+    display: none; 
+    position: absolute;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
+    padding-top: 50px;
+}
+
+.buttons img {
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+#schilder {
+    height: 60vh;
+    padding-right: 700px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#opnieuw {
+    height: 20vh;
+    padding-left: 700px;
+    padding-top: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#Canvas1 {
+    position: absolute;
+    z-index: 5;
+}
+
+#Canvas2 {
+    position: absolute;
+    z-index: 0;
+}
+
+#Canvas3 {
+    position: absolute;
+    z-index: 8;
+}
+
+#Canvas4 {
+    position: absolute;
+    z-index: 7;
+}
+
+#Canvas5 {
+    position: absolute;
+    z-index: 9;
+}
+
+#Canvas6 {
+    position: absolute;
+    z-index: 6;
+}
+
+#Canvas7 {
+    position: absolute;
+    z-index: 2;
+}
+
+#Canvas8 {
+    position: absolute;
+    z-index: 1;
+}
+
+#Canvas9 {
+    position: absolute;
+    z-index: 3;
+}
+
+#Canvas10 {
+    position: absolute;
+    z-index: 4;
+}
